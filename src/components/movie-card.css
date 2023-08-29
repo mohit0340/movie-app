@@ -1,0 +1,8 @@
+.card-image-div img{
+    height: 350px;
+    width:260px;
+    border: 1px solid silver;
+    /* object-fit: cover; */
+    image-rendering:inherit;
+    border-radius: 8px;
+}
