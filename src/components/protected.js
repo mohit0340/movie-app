@@ -7,13 +7,13 @@ const Protected = (props) => {
     const navigate=useNavigate()
     const [logindata,setLogindata]=useContext(Login_context)
 
-    useEffect(()=>{
-        if(logindata==""){
-            navigate("/login")
+    // useEffect(()=>{
+    //     if(logindata==""){
+    //         navigate("/login")
           
 
-        }
-    },[])
+    //     }
+    // },[])
   return (
     <div>
     
