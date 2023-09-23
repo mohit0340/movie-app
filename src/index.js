@@ -28,10 +28,7 @@ root.render(
         <img src={logo} height={30} width={150}></img>
       {/* <p className='fs-3 fw-bold text-danger' >Flix Movies</p> */}
       </div>
-      <div className='d-flex gap-1'>
-      <input placeholder='Search movie' className=' rounded-start-5 ps-2 btn-outline-dark border-1'></input>
-        <button className=' border-1  rounded-end-5 w-25 pe-2 border-1'> Search</button>
-      </div>
+     
       <div className='navlink-main'>
         
     <Link className='Link'  to="/">Home</Link>
