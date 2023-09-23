@@ -16,7 +16,7 @@ import Movie_preview from './components/movie-preview';
 import Top_rated from './components/toprated';
 import 'react-loading-skeleton/dist/skeleton.css'
 import logo from "./assets/logo111-removebg-preview.png"
-import Search from './components/search';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -51,7 +51,7 @@ root.render(
       <Route path='/upcoming' element={<Protected Component={Upcoming}/>}></Route>
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/register' element={<Register/>}></Route>
-      <Route path='/search' element={<Search/>}></Route>
+      
 
       <Route path='/movie-preview/:id' element={<Movie_preview/>}></Route>
       <Route path='/toprated' element={<Protected Component={Top_rated}/>}></Route>
